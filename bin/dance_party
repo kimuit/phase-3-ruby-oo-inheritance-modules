@@ -3,7 +3,8 @@
 require_relative "../lib/kid"
 require_relative "../lib/dancer"
 
-angelina = Kid.new("Angelina")
+angelina = Dancer.new
+puts angelina.twirl
 mikhail_baryshnikov = Dancer.new("Mikhail")
 
 puts "#{angelina.name} says: #{angelina.twirl}"
